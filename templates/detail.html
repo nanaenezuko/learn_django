@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <a href="{% url 'feed:index' %}">Go Back Dude</a>
+    <br>
+    <img src="{{ object.image.url }}" style="max-width: 100%">
+{% endblock body %}
